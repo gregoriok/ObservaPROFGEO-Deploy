@@ -17,7 +17,7 @@ services:
 
   # --- Backend (FastAPI) ---
   backend:
-    build: ./BackendPROFGEO
+    build: https://github.com/gregoriok/BackendPROFGEO.git#main
     container_name: profgeo_backend
     restart: always
     depends_on:
@@ -35,7 +35,7 @@ services:
 
   # --- Frontend (React) ---
   frontend:
-    build: ./Front-End-Profgeo
+    build: https://github.com/gregoriok/Front-End-Profgeo.git#main
     container_name: profgeo_frontend
     restart: always
     depends_on:

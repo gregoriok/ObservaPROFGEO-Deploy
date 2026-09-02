@@ -9,19 +9,17 @@ Docker Compose e scripts para rodar o projeto ObservaPROFGEO completo.
 
 ## Como rodar
 
-1. Clone este repositorio e os subprojetos:
+1. Clone este repositorio:
 
 ```bash
 git clone https://github.com/gregoriok/ObservaPROFGEO-Deploy.git
 cd ObservaPROFGEO-Deploy
-git clone https://github.com/gregoriok/BackendPROFGEO.git
-git clone https://github.com/gregoriok/Front-End-Profgeo.git
 ```
 
-2. Suba os containers:
+2. Suba os containers (o Docker vai clonar e buildar os repos automaticamente):
 
 ```bash
-docker compose up -d
+docker compose up -d --build
 ```
 
 3. (Primeira vez) Configure o GeoServer:
