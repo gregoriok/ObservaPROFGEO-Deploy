@@ -25,6 +25,7 @@ docker compose up -d --build
 3. (Primeira vez) Configure o GeoServer:
 
 ```bash
+bash scripts/setup_unidade_padrao.sh
 bash scripts/setup_geoserver.sh
 ```
 
