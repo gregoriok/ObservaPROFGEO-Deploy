@@ -1,0 +1,22 @@
+# Subprojetos (repos separados)
+BackendPROFGEO/
+Front-End-Profgeo/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.claude/
+
+# Environment
+.env
+*.env.local
+
+# Docker volumes
+postgres_data/
+geoserver_data/
+mapstore_data/
+
+# OS
+.DS_Store
+Thumbs.db
